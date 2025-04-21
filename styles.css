@@ -194,7 +194,7 @@ nav ul li a {
 /* ABOUT ME SECTION */  /* ABOUT ME SECTION */
 
   .about {
-    background: #dacece;
+    background: #dacece12;
     color: #181717;
     padding: 100px 80px;
     text-align: center;
@@ -327,6 +327,38 @@ nav ul li a {
     align-items: center;
     gap: 12px;
   }
+
+  .projects {
+    background-color: #f1f1f1;
+    color: black;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .project-card {
+    background-color: #d5c9d086;
+    padding: 5%;
+  }
+
+  .project-card h3 {
+    padding-bottom: 10%;
+  }
+
+  .project-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    background-color: #a0095f86;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  .project-link:hover {
+    background-color: #a0095fcc;
+  }
+  
   
   
 
